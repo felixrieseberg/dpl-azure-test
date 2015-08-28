@@ -1,0 +1,19 @@
+{
+  "name": "dpl-azure-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Hooray, all, erm, 'tests' passed!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixrieseberg/dpl-azure-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixrieseberg/dpl-azure-test/issues"
+  },
+  "homepage": "https://github.com/felixrieseberg/dpl-azure-test#readme"
+}
