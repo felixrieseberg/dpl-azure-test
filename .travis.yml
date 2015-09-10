@@ -4,9 +4,6 @@ node_js:
 
 deploy:
   provider: azure_web_apps
-  edge:
-    source: felixrieseberg/dpl
-    branch: azure-web-apps
   site: "travisdpltest" # if AZURE_WA_SITE is not set
   on:
     all_branches: true # if necessary
