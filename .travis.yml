@@ -4,6 +4,10 @@ node_js:
 
 deploy:
   provider: azure_web_apps
+  edge:
+    source: felixrieseberg/dpl
+    branch: iss360
+  skip_cleanup: true
   site: "travisdpltest" # if AZURE_WA_SITE is not set
   on:
     all_branches: true # if necessary

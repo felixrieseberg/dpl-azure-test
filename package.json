@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Hooray, all, erm, 'tests' passed!\" && exit 0"
+    "test": "echo \"Hooray, all, erm, 'tests' passed!\" && touch skip_cleanup && exit 0"
   },
   "repository": {
     "type": "git",
